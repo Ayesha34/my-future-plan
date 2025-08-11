@@ -227,8 +227,9 @@ a {
 
 .nextTarget {
     margin: 48px 0px;
-    
+
 }
+
 .next {
     display: flex;
     justify-content: flex-start;
@@ -239,10 +240,83 @@ a {
     padding: 40px;
 }
 
-.next img{
+.next img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
 
+
+/* supoort section */
+
+#support-container {
+    margin: 74px 148px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)), url(./assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#support-container .support {
+    padding: 64px 48px;
+}
+
+#support-container .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto;
+  column-gap: 24px;
+
+}
+
+#search-bar {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+
+}
+
+.submit-btn {
+    color: rgba(13, 19, 33, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* footer section */
+
+.footer{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+padding: 32px 150px;
+display: flex;
+justify-content: space-between;
+}
+
+.icons a{
+    font-size:36px;
+    margin: 0 20px;
+}
+
+.fa-facebook, .fa-linkedin{
+   color: #2489BEFF ;
+
+}
