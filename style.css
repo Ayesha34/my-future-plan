@@ -21,7 +21,7 @@
 }
 
 
-.text-caption {
+.text-title {
     color: rgba(13, 19, 33, 1);
     font-size: 48px;
     font-weight: 400;
@@ -134,3 +134,25 @@
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
 }
+
+/* inspiration */
+#inspiration{
+    margin: 74px 148px;
+}
+
+.insp-video{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;                                      
+    border: 2px solid rgb(143, 143, 143);
+    border-radius: 16px;
+    padding: 32px;
+    
+}
+
+iframe{
+    border-radius: 16px;
+    margin:0  ;
+}
+
